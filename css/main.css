@@ -1,6 +1,31 @@
 @charset "UTF-8";
 /*
+    Esquema de carpetas usado para sass. 
 
+|– main.sass              // Archivo principal
+|
+|– utilities/
+|   |– _variables.sass    // Variables
+|   |– _functions.sass    // Funciones /no se utilizó ninguna funcions
+|
+|– base/
+|   |– _reset.sass        // Reset/normalize
+|   |– _Tipography.sass   // Tipografias
+|
+|– layout/
+    |– _header.sass       // Header
+    |– _inicio.sass       // Seccion inicio
+    |– _nosotros.sass     // Seccion nosotros
+    |– _soluciones.sass   // Seccion soluciones
+    |– _proyectos.sass    // Seccion proyectos
+    |– _clientes.sass     // Seccion clientes
+    |– _contacto.sass     // Seccion contacto
+    |– _footer.sass       // Footer
+
+Se utilizó:
+ - Anidamiento
+ - variables
+ - Partial
 */
 /*
     En este partial se realizan los resets de los estilos por
